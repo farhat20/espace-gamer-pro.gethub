@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <title>
+            Connexion - comptes Google
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans|Google Sans">
+        <style>
+            *{
+                font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+            }
+            body{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .main{
+                margin-top: 5%;
+            }
+            .main .card{
+                display: flex;
+                border: 1px solid #DADCE0;
+                padding-top: 40px;
+                width: 450px;
+                height: auto;
+                flex-direction: column;
+                border-radius: 7px;
+            }
+            .card-header{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .card-header .login-title{
+                margin-top: 15px;
+                font-weight: 400;
+                font-size: 24px;
+                color: #202124;
+            }
+            .card-header .login-subtitle{
+                font-family: Roboto;
+                letter-spacing:0.1px;
+                line-height: 24px;
+                font-size: 16px;
+                color:#202124;
+                margin-top: 10px;
+            }
+            .card-header input[type='text']{
+                margin-top: 30px;
+                padding: 10px;
+                width: 75%;
+                padding: 1.3em;
+                font-size: 15px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                outline-color: rgb(62, 146, 243);
+            }
+            .card-header input[type='text']::placeholder{
+                color:#80868B;
+            }
+            .card .card-footer{
+                margin-top: 10px;
+                padding-left: 35px;
+                padding-right: 35px;
+            }
+            .card-footer .forgot-email{
+                font-weight: 600;
+                color: rgb(26, 115, 232);
+                font-family: Roboto;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            .card-footer .security-text{
+                margin-top: 50px;
+                color: rgb(95, 99, 104);
+                line-height: 20.0004px;
+                vertical-align: baseline;
+                font-size: 14px;
+                font-family: Roboto;
+            }
+            .card-footer .security-text b{
+                color: rgb(26, 115, 232);
+                letter-spacing: 0.5px;
+                cursor: pointer;
+            }
+            .card-footer .card-footer-buttons{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                flex-direction: row;
+                margin-top: 40px;
+                margin-bottom: 65px;
+            }
+            .card-footer .card-footer-buttons span{
+                letter-spacing: 0.25px;
+                font-size: 14px;
+                font-family: Google Sans;
+                cursor: pointer;
+                color: rgb(26, 115, 232);
+                font-weight: 600;
+            }
+            .card-footer .card-footer-buttons button{
+                outline: 0;
+                margin-right: 5px;
+                padding: 0.6em 24px 0.6em 24px;
+                font-size: 14px;
+                font-family: Google Sans;
+                color: #fff;
+                border: none;
+                border-radius: 3px;
+                font-weight: 300;
+                cursor: pointer;
+                background-color: rgb(26, 115, 232);
+                transition: box-shadow 0.3s;
+            }
+            .card-footer .card-footer-buttons button:hover{
+                filter: brightness(90%);
+                box-shadow: 0px 1px 1px rgb(173, 172, 172);
+            }
+            
+            
+            /* For mobile */
+            @media screen and (max-width:640px){
+                .main .card{
+                    width: 350px;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+
+        <div class="main">
+
+            <div class="card">
+
+                <div align="center" class="card-header">
+
+                    <img src="https://www.google.fr/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" width="70">
+                    
+                    <span class="login-title">Connexion</span>
+
+                    <span class="login-subtitle">Utiliser votre compte Google</span>
+
+                    <input type="text" placeholder="Adresse e-mail ou numéro de téléphone">
+                
+                </div>
+                <div class="card-footer">
+
+                    <span class="forgot-email">Adresse e-mail oubliée ?</span>
+
+                    <p class="security-text">
+                        S'il ne s'agit pas de votre ordinateur, utilisez le mode Invité pour vous connecter en mode privé. 
+                        <b>En savoir plus</b>
+                    </p>
+
+                    <div class="card-footer-buttons">
+                        
+                        <span>Créer un compte</span>
+
+                        <button>Suivant</button>
+
+                    </div>
+                
+                </div>
+                
+            </div>
+
+        </div>
+
+    </body>
+</html>
